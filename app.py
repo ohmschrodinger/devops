@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-print("User authentication feature branch initialized. from main branch")
+print("User authentication feature branch initialized.")
 
 @app.route("/")
 def home():
